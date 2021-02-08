@@ -8,4 +8,4 @@
 * 命令输入格式：   
   ```dirsync ~\dir1 ~\dir2  # ~\dir1为源目录，~\dir2为目标目录```
 * 输出结果：  
-  dirsync程序实现两个目录内的所有文件和子目录（递归所有的子目录）内容保持一致。同步与备份完成后，输出"Successfully synchronize between $1 (S) and $2 (D)！"，其中$1、$2分别为源目录和目标目录。
+  dirsync程序实现两个目录内的所有文件和子目录（递归所有的子目录）内容保持一致。同步与备份完成后，输出```Successfully synchronize between $1 (S) and $2 (D)！```，其中$1、$2分别为源目录和目标目录。
