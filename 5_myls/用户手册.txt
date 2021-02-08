@@ -1,0 +1,59 @@
+MYLS(1)                                           User Commands                                          MYLS(1)
+
+NAME
+       ls - list directory contents
+
+SYNOPSIS
+       ls [OPTION]... [FILE]...
+
+DESCRIPTION
+       List  information about the FILEs (the current directory by default).  Sort entries alphabetically if
+       none of -cftuvSUX nor --sort is specified.
+
+       Mandatory arguments to long options are mandatory for short options too.
+
+       -a, --all
+              do not ignore entries starting with .
+
+       -A, --almost-all
+              do not list implied . and ..
+
+       -c     with -lt: sort by, and show, ctime (time of last modification  of  file  status  information);
+              with -l: show ctime and sort by name; otherwise: sort by ctime, newest first
+
+       -d, --directory
+              list directories themselves, not their contents
+
+       -F, --classify
+              append indicator (one of */=>@|) to entries
+
+       -g     like -l, but do not list owner
+
+       -i, --inode
+              print the index number of each file
+
+       -l     use a long listing format
+
+       -m     fill width with a comma separated list of entries
+
+       -n, --numeric-uid-gid
+              like -l, but list numeric user and group IDs
+
+       -o     like -l, but do not list group information
+
+       -Q, --quote-name
+              enclose entry names in double quotes
+        
+       -r, --reverse
+              reverse order while sorting
+
+       -R, --recursive
+              list subdirectories recursively
+
+       -t     sort by modification time, newest first
+
+       -u     with  -lt:  sort by, and show, access time; with -l: show access time and sort by name; other‐
+              wise: sort by access time, newest first
+
+       -1     list one file per line.  Avoid '\n' with -q or -b
+
